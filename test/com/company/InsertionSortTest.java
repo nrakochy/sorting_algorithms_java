@@ -6,15 +6,15 @@ import java.util.Arrays;
 import java.util.List;
 
 public class InsertionSortTest {
-//
-//    @Test
-//    public void verifySortReturnsSortedListWhenGivenPresortedArray(){
-//        InsertionSort sorter = new InsertionSort();
-//        Integer[] twoElementArray = new Integer[]{1,2};
-//        List sortedTwoElementList = Arrays.asList(twoElementArray);
-//
-//        assertEquals("Did not return presorted array", sortedTwoElementList, sorter.sort(twoElementArray));
-//    }
+
+    @Test
+    public void verifySortReturnsSortedListWhenGivenPresortedArray(){
+        InsertionSort sorter = new InsertionSort();
+        Integer[] twoElementArray = new Integer[]{1,2};
+        List sortedTwoElementList = Arrays.asList(twoElementArray);
+
+        assertEquals("Did not return presorted list", sortedTwoElementList, sorter.sort(twoElementArray));
+    }
 
     @Test
     public void verifySortReturnsSortedListWhenGivenArrayOfTwoUnsortedElements(){
@@ -23,7 +23,7 @@ public class InsertionSortTest {
         Integer[] sortedTwoElementArray = new Integer[]{1,2};
         List sortedTwoElementList = Arrays.asList(sortedTwoElementArray);
 
-        assertEquals("Did not return correctly sorted two-element array", sortedTwoElementList, sorter.sort(twoElementArray));
+        assertEquals("Did not return correctly sorted two-element list", sortedTwoElementList, sorter.sort(twoElementArray));
     }
 
    @Test
@@ -33,6 +33,6 @@ public class InsertionSortTest {
         Integer[] sortedThreeElementArray = new Integer[]{1,2,3};
         List sortedThreeElementList = Arrays.asList(sortedThreeElementArray);
 
-        assertEquals("Did not return correctly sorted two-element array", sortedThreeElementList, sorter.sort(threeElementArray));
+        assertEquals("Did not return correctly sorted three-element list", sortedThreeElementList, sorter.sort(threeElementArray));
     }
 }

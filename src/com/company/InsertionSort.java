@@ -13,16 +13,20 @@ public class InsertionSort {
 
         for(Integer unsortedIndex = 0; unsortedIndex < unsortedArrayLength; unsortedIndex++){
             Integer unsortedElement = unsortedArray[unsortedIndex];
-            Integer sortedArrayLoopCounter = 0;
+
             if (sortedList.isEmpty()) {
                 sortedList.add(unsortedElement);
-                sortedArrayLoopCounter++;
             } else {
-                while (unsortedElement > sortedList.get(sortedArrayLoopCounter)) {
-                    sortedArrayLoopCounter++;
+                Integer sortedListSize = sortedList.size();
+                for(Integer sortedIndex = 0; sortedIndex < sortedListSize; sortedIndex++){
+                    if(unsortedElement < sortedList.get(sortedIndex)){
+                        sortedList.add(sortedIndex, unsortedElement);
+                        sortedIndex = sortedListSize;
+                    }
                 }
-                sortedList.add(sortedArrayLoopCounter, unsortedElement);
-                sortedArrayLoopCounter = unsortedIndex;
+                if(unsortedElement > sortedList.get(sortedListSize-1)){
+                    sortedList.add(unsortedElement);
+                }
             }
         }
         return sortedList;
