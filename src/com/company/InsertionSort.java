@@ -19,7 +19,7 @@ public class InsertionSort {
             } else {
                 Integer sortedListSize = sortedList.size();
                 for(Integer sortedIndex = 0; sortedIndex < sortedListSize; sortedIndex++){
-                    if(unsortedElement < sortedList.get(sortedIndex)){
+                    if(unsortedElement <= sortedList.get(sortedIndex)){
                         sortedList.add(sortedIndex, unsortedElement);
                         sortedIndex = sortedListSize;
                     }
@@ -34,14 +34,6 @@ public class InsertionSort {
 }
 
 
-//INSERTION-SORT
-// The insertion sort splits an array into two sub-arrays.
-// The first sub-array (like the cards in your hand) is always sorted and increases in size as the sort continues.
-// The second sub-array (like the cards to be picked up) is unsorted,
-// contains all the elements yet to be inserted into the first sub-array, and decreases in size as the sort continues.
+// Details on the algorithm can be found on wikipedia- http://en.wikipedia.org/wiki/Insertion_sort
 
-//The insertion sort maintains the two sub-arrays within the same array.
-// At the beginning of the sort, the first element of the first sub-array is considered the "sorted array".
-// With each pass through the loop, the next element in the unsorted second sub-array is placed into its proper position
-// in the first sorted sub-array.
 
