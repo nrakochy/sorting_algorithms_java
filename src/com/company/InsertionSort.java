@@ -46,6 +46,5 @@ public class InsertionSort {
 }
 
 
-// Details on the algorithm can be found on wikipedia- http://en.wikipedia.org/wiki/Insertion_sort
 
 
