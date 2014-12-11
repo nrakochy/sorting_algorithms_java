@@ -1,18 +1,34 @@
 package com.company;
+
 import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by user on 12/10/14.
  */
 public class InsertionSort {
-    public ArrayList sort(int[] unsortedArray){
-        int unsortedArrayLength = unsortedArray.length;
-        ArrayList<Integer> sortedArray = new ArrayList(unsortedArrayLength);
-        for (sortedArrayIndex = 0; sortedArrayIndex <= unsortedArrayLength; sortedArrayIndex ++){
-            int unsortedElement = unsortedArray[sortedArrayIndex];
+    public List sort(Integer[] unsortedArray) {
+        List<Integer> sortedList = new ArrayList<Integer>();
+        Integer unsortedArrayLength = unsortedArray.length;
+
+        for(Integer unsortedIndex = 0; unsortedIndex < unsortedArrayLength; unsortedIndex++){
+            Integer unsortedElement = unsortedArray[unsortedIndex];
+            Integer sortedArrayLoopCounter = 0;
+            if (sortedList.isEmpty()) {
+                sortedList.add(unsortedElement);
+                sortedArrayLoopCounter++;
+            } else {
+                while (unsortedElement > sortedList.get(sortedArrayLoopCounter)) {
+                    sortedArrayLoopCounter++;
+                }
+                sortedList.add(sortedArrayLoopCounter, unsortedElement);
+                sortedArrayLoopCounter = unsortedIndex;
+            }
         }
-        return sortedArray;
+        return sortedList;
     }
 }
+
 
 //INSERTION-SORT
 // The insertion sort splits an array into two sub-arrays.
