@@ -15,8 +15,10 @@ public class BubbleSort {
 
     private List rearrangeTwoElementsInList(Integer element1, Integer element2, Integer listIndex, List unsortedList) {
         if ((element1 > element2)) {
-            unsortedList.add(listIndex + 1, element1);
+            unsortedList.remove(element1);
+            unsortedList.remove(element2);
             unsortedList.add(listIndex, element2);
+            unsortedList.add(listIndex + 1, element1);
         }
         return unsortedList;
     }

@@ -5,7 +5,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class BubbleSortTest {
@@ -27,8 +26,8 @@ public class BubbleSortTest {
         twoElementList.add(1);
 
         List<Integer> sortedTwoElementList = new ArrayList<Integer>();
-        twoElementList.add(1);
-        twoElementList.add(2);
+        sortedTwoElementList.add(1);
+        sortedTwoElementList.add(2);
 
         assertEquals("Did not return correctly sorted two-element list", sortedTwoElementList, sorter.sort(twoElementList));
     }

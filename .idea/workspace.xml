@@ -28,8 +28,8 @@
       <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,14 +40,14 @@
       <file leaf-file-name="BubbleSortTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/company/BubbleSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.032467533" vertical-offset="240" max-vertical-offset="1200">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state vertical-scroll-proportion="-0.12987013" vertical-offset="450" max-vertical-offset="1185">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#368#377#0" expanded="true" />
-                <element signature="e#741#750#0" expanded="true" />
-                <element signature="e#875#884#0" expanded="true" />
-                <marker date="1418336418000" expanded="true" signature="550:1626" placeholder="..." />
+                <element signature="e#343#352#0" expanded="true" />
+                <element signature="e#716#725#0" expanded="true" />
+                <element signature="e#850#859#0" expanded="true" />
+                <marker date="1418337178000" expanded="true" signature="525:1613" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -63,8 +63,8 @@
         <option value="$PROJECT_DIR$/src/com/company/insertionSort.java" />
         <option value="$PROJECT_DIR$/test/com/company/InsertionSortTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/test/com/company/BubbleSortTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/test/com/company/BubbleSortTest.java" />
       </list>
     </option>
   </component>
@@ -486,7 +486,9 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -619,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -629,14 +631,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/company/BubbleSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.032467533" vertical-offset="240" max-vertical-offset="1200">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state vertical-scroll-proportion="-0.12987013" vertical-offset="450" max-vertical-offset="1185">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#368#377#0" expanded="true" />
-            <element signature="e#741#750#0" expanded="true" />
-            <element signature="e#875#884#0" expanded="true" />
-            <marker date="1418336418000" expanded="true" signature="550:1626" placeholder="..." />
+            <element signature="e#343#352#0" expanded="true" />
+            <element signature="e#716#725#0" expanded="true" />
+            <element signature="e#850#859#0" expanded="true" />
+            <marker date="1418337178000" expanded="true" signature="525:1613" placeholder="..." />
           </folding>
         </state>
       </provider>
