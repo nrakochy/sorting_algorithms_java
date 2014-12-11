@@ -3,9 +3,6 @@ package com.company;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by user on 12/10/14.
- */
 public class InsertionSort {
     public List sort(Integer[] unsortedArray) {
         List<Integer> sortedList = new ArrayList<Integer>();
