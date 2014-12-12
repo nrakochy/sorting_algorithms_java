@@ -113,6 +113,6 @@ public class BubbleSortTest {
         sortedTenElementList.add(9);
         sortedTenElementList.add(10);
 
-        assertEquals("Did not return correctly sorted three-element list", sortedTenElementList, sorter.sort(tenElementList));
+        assertEquals("Did not return correctly sorted ten-element list", sortedTenElementList, sorter.sort(tenElementList));
     }
 }
